@@ -1,0 +1,28 @@
+.headersection,.footersection{background: #F42405 none repeat scroll 0 0;}
+.icon a{background: #FF525A none repeat scroll 0 0;}
+.searchbtn input[type="text"]{background: #F6F6F6 none repeat scroll 0 0;
+	border: 1px solid #F42405;}
+.searchbtn input[type="submit"]{border: 1px solid #F6F6F6;}
+.searchbtn input[type="submit"]:hover{background: #FF525A none repeat scroll 0 0;
+	border: 1px solid #E6E6E6;}
+ input[type="submit"]{background: #F42405 none repeat scroll 0 0; border: 1px solid #F42405;}
+.navsection{background: #FF525A none repeat scroll 0 0;}
+.navsection ul li{border-left: 1px solid #F42405;border-right: 1px solid #F42405;}
+.samepost h2 a{color: #F42405;}
+.maincontent,.sidebar{background: #E5E4E4 none repeat scroll 0 0;}
+.samepost img{border: 1px solid #F42405;}
+.contentsection{border: 1px solid #F42405;}
+.samesidebar h2{background: #F42405 none repeat scroll 0 0;border-bottom: 
+	2px solid #FF525A; color:#FFFFFF; }
+.readmoer a{border: 1px solid #F42405;}
+.readmore a:hover{color: #F42405;}
+.pagination a{background: #F5F6F7 none repeat scroll 0 0;
+	border: 2px solid #F42405;color:#FF525A; }
+.pagination a:hover{background: #FF525A none repeat scroll 0 0;
+	border: 2px solid #F42405;color:#F5F6F7; }
+.footermenu ul li a{color:#FFFFFF;}
+.samepost h2{color:#F42405;}
+.about h2{color:#F42405;}
+.about img{border: 1px solid #F42405;}
+.relatedpost h2{background: #F42405 none repeat scroll 0 0;
+	border-bottom:2px solid #FF525A; color:#FFFFFF !important; }

@@ -1,0 +1,29 @@
+//search
+
+$result = mysql_query('select * from student ');
+		 while($row = mysql_fetch_array($result))
+		 { 
+		 
+		 }
+		 
+		 
+//Insert
+
+ $result = mysql_query("insert into student (st_name,st_roll,st_age,st_email) values ('$_POST[st_name]',
+  '$_POST[st_roll]','$_POST[st_age]','$_POST[st_email]')");
+  
+ //Update
+ 
+ $result = mysql_query("update student set st_name='$_POST[st_name]',st_roll=
+  '$_POST[st_roll]',st_age='$_POST[st_age]',st_email='$_POST[st_email]' where id='$id'");
+  
+ //Delete
+ 
+ $result = mysql_query("delete from student where id='$id'");
+ 
+ 
+ //Email validation
+ 
+ if (!preg_match('/^[A-Z0-9_-][A-Z0-9._-]*@([A-Z0-9][A-Z0-9-]*\.)+[A-Z]{2,6}$/i',$_POST['st_email'] )){
+     throw new Exception("<div class='error'>Enter a valid email address</div>");
+   }

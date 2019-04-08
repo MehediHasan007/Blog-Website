@@ -1,0 +1,42 @@
+insert
+
+
+<style>
+	body{background:url(background.png)}
+	h1{color:#2eb6a7;font-size:50px;font-family:Arial;text-align:center;}
+	table{width:200px;height:150px}
+    table,td,th{ margin-left:50px; }
+    td{text-align:center;}
+	a{ margin-left:50px; font-size:20px; font-family:Arial; text-decoration:none;}
+	
+	</style>
+	
+	
+	
+	update
+	
+	
+	<style>
+	body{background:url(background.png)}
+	a{ margin-left:50px; font-size:20px; font-family:Arial; text-decoration:none;}
+	h1{color:#2eb6a7;font-size:50px;font-family:Arial;text-align:center;}
+	table{width:200px;height:150px}
+    table,td,th{ margin-left:50px; }
+    td{text-align:center;}
+	
+	</style>
+	
+	view
+	
+	<style>
+	body{background:url(background.png)}
+	h1{color:#2eb6a7;font-size:50px;font-family:Arial;text-align:center;}
+    h2{margin-left:50px;}
+	table{width:750px;}
+    table,td,th{border:2px solid #9f2eb6; margin-left:200px; border-collapse:collapse;}
+    td{text-align:center;}
+	a{ margin-left:50px; font-size:20px; font-family:Arial; text-decoration:none;}
+	
+	</style>
+	
+	
